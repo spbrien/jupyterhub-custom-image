@@ -1,0 +1,9 @@
+nbgitpuller
+nbconvert
+pandas
+pandas-datareader
+dash
+plotly
+textblob
+s3fs
+minio
