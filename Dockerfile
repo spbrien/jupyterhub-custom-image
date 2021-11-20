@@ -15,3 +15,8 @@ RUN python -m nltk.downloader all
 
 COPY requirements.txt /usr/src/requirements.txt
 RUN pip install --no-cache-dir -r /usr/src/requirements.txt
+
+USER ${NB_UID}
+
+COPY packages.R ./packages.R 
+RUN Rscript ./packages.R
