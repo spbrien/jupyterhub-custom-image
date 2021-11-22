@@ -7,4 +7,4 @@ plotly
 textblob
 s3fs
 minio
-git+https://github.com/spbrien/nbt.git@master
+git+https://github.com/spbrien/nbt.git@cdff614
