@@ -8,4 +8,7 @@ textblob
 s3fs
 minio
 flair
+tensorflow
+tensorflow_hub
+sklearn
 git+https://github.com/spbrien/nbt.git@cdff614
